@@ -1,6 +1,6 @@
 ## Description
 This readme describes the process of deploying and running a Java app on DigitalOcean.
-## Part 1 Create droplet and deploy Java app.
+## Part 1 - Create droplet and deploy Java app.
 
 1. Create Droplet
 2. Create Firewall
@@ -12,7 +12,7 @@ This readme describes the process of deploying and running a Java app on Digital
 ```sh 
    apt update 
 ```
-type java to see whats available (install Java 8
+type java to see whats available (install Java 8)
 ```sh 
   apt install openjdk-8-jre-headless)
 ```
@@ -33,7 +33,7 @@ type java to see whats available (install Java 8
 10. Install netstat and check for servers with active internet connections
     ```netstat -lpnt```
 
-## Part 2 - Create droplet and deploy Java app.
+## Part 2 - Add user permissions
 1. add user + sudo permission
 ```sh
   adduser jay
